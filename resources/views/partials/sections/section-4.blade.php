@@ -4,7 +4,7 @@
             <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <div class="tm-article-carousel">
                     <article class="tm-bg-white mr-2 tm-carousel-item">
-                        <img src="img/img-01.jpg" alt="Image" class="img-fluid">
+                        <img src="{{ asset('img/img-01.jpg') }}" alt="Image" class="img-fluid">
                         <div class="tm-article-pad">
                             <header>
                                 <h3 class="text-uppercase tm-article-title-2">Nunc in felis aliquet metus luctus
@@ -17,7 +17,7 @@
                         </div>
                     </article>
                     <article class="tm-bg-white mr-2 tm-carousel-item">
-                        <img src="img/img-02.jpg" alt="Image" class="img-fluid">
+                        <img src="{{ asset('img/img-02.jpg') }}" alt="Image" class="img-fluid">
                         <div class="tm-article-pad">
                             <header>
                                 <h3 class="text-uppercase tm-article-title-2">Sed cursus dictum nunc quis
@@ -30,7 +30,7 @@
                         </div>
                     </article>
                     <article class="tm-bg-white mr-2 tm-carousel-item">
-                        <img src="img/img-01.jpg" alt="Image" class="img-fluid">
+                        <img src="{{ asset('img/img-01.jpg') }}" alt="Image" class="img-fluid">
                         <div class="tm-article-pad">
                             <header>
                                 <h3 class="text-uppercase tm-article-title-2">Eget diam pellentesque interdum ut
@@ -43,7 +43,7 @@
                         </div>
                     </article>
                     <article class="tm-bg-white mr-2 tm-carousel-item">
-                        <img src="img/img-02.jpg" alt="Image" class="img-fluid">
+                        <img src="{{ asset('img/img-02.jpg') }}" alt="Image" class="img-fluid">
                         <div class="tm-article-pad">
                             <header>
                                 <h3 class="text-uppercase tm-article-title-2">Lorem ipsum dolor sit amet,
@@ -56,7 +56,7 @@
                         </div>
                     </article>
                     <article class="tm-bg-white mr-2 tm-carousel-item">
-                        <img src="img/img-01.jpg" alt="Image" class="img-fluid">
+                        <img src="{{ asset('img/img-01.jpg') }}" alt="Image" class="img-fluid">
                         <div class="tm-article-pad">
                             <header>
                                 <h3 class="text-uppercase tm-article-title-2">Orci varius natoque penatibus et
@@ -69,7 +69,7 @@
                         </div>
                     </article>
                     <article class="tm-bg-white tm-carousel-item">
-                        <img src="img/img-02.jpg" alt="Image" class="img-fluid">
+                        <img src="{{ asset('img/img-02.jpg') }}" alt="Image" class="img-fluid">
                         <div class="tm-article-pad">
                             <header>
                                 <h3 class="text-uppercase tm-article-title-2">Nullam sollicitudin at augue
@@ -83,7 +83,6 @@
                     </article>
                 </div>
             </div>
-
         </div>
     </div>
 </div>

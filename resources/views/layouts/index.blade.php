@@ -15,6 +15,7 @@ http://www.tooplate.com/view/2095-level
 
 -->
     <!-- load stylesheets -->
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
     <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="{{ asset('font-awesome-4.7.0/css/font-awesome.min.css') }}"> <!-- Font Awesome -->
@@ -23,7 +24,7 @@ http://www.tooplate.com/view/2095-level
     <link rel="stylesheet" type="text/css" href="{{ asset('slick/slick-theme.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/datepicker.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/tooplate-style.css') }}"> <!-- Templatemo style -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,19 +44,19 @@ http://www.tooplate.com/view/2095-level
     </div>
 
     <!-- load JS files -->
-    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="{{ asset('js/jquery-1.11.3.min.js') }}"></script>
     <!-- jQuery (https://jquery.com/download/) -->
-    <script src="js/popper.min.js"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
     <!-- https://popper.js.org/ -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <!-- https://getbootstrap.com/ -->
-    <script src="js/datepicker.min.js"></script>
+    <script src="{{ asset('js/datepicker.min.js') }}"></script>
     <!-- https://github.com/qodesmith/datepicker -->
-    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="{{ asset('js/jquery.singlePageNav.min.js') }}"></script>
     <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
-    <script src="slick/slick.min.js"></script>
+    <script src="{{ asset('slick/slick.min.js') }}"></script>
     <!-- http://kenwheeler.github.io/slick/ -->
-    
+
     @include('partials.script.function')
 
     <script src="{{ asset('js/app.js') }}"></script>
